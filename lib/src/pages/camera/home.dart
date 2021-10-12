@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red.shade200,
+        backgroundColor: Colors.red.shade300,
         title: Text(
           'Shodee',
           style: TextStyle(
