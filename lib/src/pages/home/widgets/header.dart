@@ -21,7 +21,7 @@ class _HeaderState extends State<Header> {
   @override
   void initState() {
     _backgroundColor = Colors.white;
-    _backgroundColorSearch = Colors.red.shade100;
+    _backgroundColorSearch = Colors.transparent;
     _colorIcon = Colors.black;
     _opacity = 0.0;
     _offset = 0.0;
@@ -71,7 +71,7 @@ class _HeaderState extends State<Header> {
 
     final border = OutlineInputBorder(
         borderSide: const BorderSide(
-          color: Colors.pinkAccent,
+          color: Colors.deepOrange,
           width: 0,
         ),
         borderRadius: const BorderRadius.all(
