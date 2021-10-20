@@ -84,7 +84,7 @@ class _signupState extends State<signup> {
                               }
                               // Check if the entered email has the right format
                               if (!RegExp(r'\S+@\S+\.\S+').hasMatch(value)) {
-                                return 'ต้องระบุข้อมูลในช่องนี้';
+                                return 'อีเมลของคุณไม่ถูกต้อง';
                               }
                               // Return null if the entered email is valid
                               return null;

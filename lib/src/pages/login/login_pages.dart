@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cf_hand2/src/pages/home/home_pages.dart';
+import 'package:cf_hand2/src/pages/home/manu_customer.dart';
 
 class login extends StatefulWidget {
   // const login({Key? key}) : super(key: key);
@@ -112,7 +113,7 @@ class _loginState extends State<login> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => HomePage()),
+                      MaterialPageRoute(builder: (context) => manu()),
                     );
                   },
                   child: Text('เข้าสู่ระบบ'),
