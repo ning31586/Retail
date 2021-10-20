@@ -1,7 +1,7 @@
 import 'package:cf_hand2/src/pages/me/me_customer.dart';
 import 'package:flutter/material.dart';
 import 'package:cf_hand2/src/pages/home/home_pages.dart';
-import 'package:cf_hand2/src/trolley/trolley_customer.dart';
+import 'package:cf_hand2/src/pages/trolley/trolley_customer.dart';
 
 class manu extends StatefulWidget {
   // const manu({Key? key}) : super(key: key);
